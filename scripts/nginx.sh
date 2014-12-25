@@ -34,8 +34,8 @@ else
     github_url="$4"
 fi
 
-# Add repo for latest stable nginx
-sudo add-apt-repository -y ppa:nginx/stable
+# Add repo for latest development nginx
+sudo add-apt-repository -y ppa:nginx/development
 
 # Update Again
 sudo apt-get update
